@@ -1,0 +1,148 @@
+.main-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1.6;
+  padding: 80px 100px;
+}
+
+.main-left .logo-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main-left.cloudy-mode {
+  background-color: #d2d2d2;
+}
+
+.main-left.cloudy-mode .logo-text {
+  color: #818181;
+}
+
+.main-left.sunny-mode {
+  background-color: #fffaed;
+}
+
+.main-left.sunny-mode .logo-text {
+  color: #ffb200;
+}
+
+.main-left.rainny-mode {
+  background-color: #cedaec;
+}
+
+.main-left.rainny-mode .logo-text {
+  color: #89abdf;
+}
+
+.main-left.snow-mode {
+  background-color: #d7dbe0;
+}
+
+.main-left.snow-mode .logo-text {
+  color: #959eae;
+}
+
+.main-left .today {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main-right {
+  flex: 1;
+  padding: 80px 140px;
+}
+
+.temperature {
+  font-size: 250px;
+}
+
+.temperature-text {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.today-info {
+  position: relative;
+}
+
+.today-info img {
+  position: absolute;
+  left: 100px;
+  bottom: 5px;
+  z-index: 1;
+  width: 600px;
+}
+
+.today-info p {
+  position: relative;
+  margin-top: 250px;
+  z-index: 2;
+}
+
+.position-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.country {
+  font-size: 15px;
+  font-weight: 700;
+  color: #a9a9a9;
+}
+
+.change-location-btn {
+  font-size: 15px;
+  color: #c1c1c1;
+}
+
+.divider-line {
+  height: 2px;
+  margin: 120px 0;
+  background-color: #ebebeb;
+}
+
+.weekly-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.weather-info img {
+  width: 50px;
+  position: relative;
+  bottom: 3px;
+}
+
+.weather-info span {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.day-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.day-info-item .list-item-date {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+}
